@@ -1,0 +1,124 @@
+body{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+main{
+  width: 100%;
+  max-width: 45vw;
+}
+
+main .div-logo{
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 4rem;
+}
+
+main .title{
+  font-size: var(--f4);
+  font-weight: bold;
+  margin: 1rem 0 2rem;
+}
+
+main .div-input_button{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--gap2);
+}
+
+main .div-input_button input{
+  font-size: var(--f2);
+  border: 2px solid var(--border-primary);
+  border-radius: 12px;
+  padding: 9px 18px;
+  width: 100%;
+
+  &:focus{
+    outline-color: var(--color-brand);
+  }
+}
+
+main .div-input_button button{
+  font-size: var(--f2);
+  background-color: var(--color-brand);
+  border-radius: 12px;
+  color: var(--always-white);
+  border: none;
+  padding: 10px 24px;
+  cursor: pointer;
+  transition: background-color .2s ease-in-out;
+
+  &:hover{
+    background-color: var(--color-brand-hover);
+  }
+}
+
+main .list{
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap1);
+  list-style-type: none;
+  margin: 2.5rem 0;
+}
+
+main .list .list-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 12px;
+  background-color: var(--background-secondary);
+  border-radius: 12px;
+}
+
+main .list .list-item div{
+  display: flex;
+  align-items: center;
+  gap: var(--gap1);
+}
+
+main .list .list-item div .check{
+  border-radius: 6px;
+  width: 16px;
+  height: 16px;
+}
+
+main .list .list-item div p{
+  font-size: var(--f2);
+}
+
+main .list .list-item img{
+  cursor: pointer;
+}
+
+.message{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-danger);
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.message div{
+  display: flex;
+  align-items: center;
+  gap: var(--gap1);
+}
+
+.message div p{
+  font-size: var(--f2);
+  color: var(--always-white);
+}
+
+.message img{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 827px){
+  main{
+    min-width: 374px;
+  }
+}

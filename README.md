@@ -22,10 +22,10 @@ Este projeto foi desenvolvido com o intuito de reforçar conceitos fundamentais 
 
 ## 🖼️ Print
 
-![Print 1](./prints/print1.png)
+![Print 1](./assets/design/design-tela-desktop.png)
 
 ## 🚀 Como rodar o projeto
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repo.git
+   git clone https://github.com/Raul-dev-br/Projeto-Lista-de-Tarefas.git
