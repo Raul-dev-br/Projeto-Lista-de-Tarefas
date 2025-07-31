@@ -6,7 +6,6 @@ O objetivo foi praticar os fundamentos de JavaScript aplicando-os em um projeto 
 ## 📋 Funcionalidades
 
 - Adicionar itens à lista de compras
-- Marcar itens como comprados
 - Remover itens da lista
 - Salvar os dados no `localStorage`, mantendo a lista mesmo ao atualizar a página
 
