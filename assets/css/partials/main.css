@@ -17,6 +17,18 @@ main .div-logo{
   margin: 2rem 0 4rem;
 }
 
+main .link{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+main .link span{
+  font-size: var(--f2);
+  color: var(--color-brand);
+}
+
 main .title{
   font-size: var(--f4);
   font-weight: bold;
@@ -89,12 +101,16 @@ main .list .list-item div p{
   font-size: var(--f2);
 }
 
+.riscado{
+  text-decoration: line-through;
+}
+
 main .list .list-item img{
   cursor: pointer;
 }
 
 .message{
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-danger);
